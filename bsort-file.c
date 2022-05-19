@@ -128,7 +128,7 @@ int main(int argc, char **argv) {
   }
   */
   FILE* filepointer;
-  filepointer = fopen("data.txt", "r");
+  filepointer = fopen("data.txt", "r");//name your input data.txt
   fseek(filepointer, OL, SEEK_END);
   int N = ftell(fpointer);
   rewind(filepointer);
